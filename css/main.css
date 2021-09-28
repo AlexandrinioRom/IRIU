@@ -1,0 +1,219 @@
+body {
+    min-width: 320px;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type:none;
+}
+/*___________________________________HEADER_____________________________________*/
+.telephone,
+.location {
+    margin: 10px;
+    color: #27AE60;
+}
+
+.headr_list_right > li:nth-child(2) {
+    min-width: 62px;
+}
+
+.headr_head a {
+    margin: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+
+.catalog-link {
+    background-color:#27AE60;
+    color:#fff;
+    border-radius: 8px;
+    font-size:18px;
+    padding: 6px;
+}
+
+.catalog-link:hover {
+    color:#ffffff;
+    background-color:#1b6535;
+}
+
+
+.discounts {
+    background-color: #F2C94C;
+    border-radius: 10px;
+    display: inline-block;
+    transform: skewX(160deg);
+    color: #ffffff;
+}
+
+.discounts:hover {
+    background-color: #f0ba1a;
+}
+
+.bi-heart,
+.bi-cart3 {
+    color:#27AE60;
+}
+
+
+/*___________________________________FOOTER_____________________________________*/
+
+
+.footr,
+.accordion-header,
+.accordion-button,
+.accordion-item {
+    background-color: #27AE60;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #27AE60;
+}
+
+.footr h1,
+.footr p,
+.accordion-body {
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2C94C;
+}
+
+.footr h1 {
+    font-weight: bold;
+}
+
+.footr p,
+.accordion-body {
+    font-weight: 500;
+}
+
+.footr a {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.footr li {
+    margin-top: 22px;
+}
+
+.footr_vk-log {
+    filter: brightness(0) invert(1);
+    height: 32px;
+    width: 32px;
+    padding-right: 25px;
+}
+
+.footr_twitter-log {
+    padding-right: 25px;
+}
+
+.footr_logotype {
+    padding-top: 50px;
+}
+
+@media (max-width: 407.98px) {
+    .headr_list_left a,
+    .headr_list_right a {
+        font-size: 9.5px;
+    }
+    .footr h1,
+    .footr p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .footr a {
+        font-size: 14px;
+    }
+    .footr_logotype {
+        padding-top: 2%;
+    }
+}
+
+/* Экстрамалые девайсы (портретные телефоны, < 576px) */
+@media (min-width: 407.98px) and (max-width: 575.98px) {
+    .headr_list_left a,
+    .headr_list_right a {
+        font-size: 11.5px;
+    }
+    .footr h1,
+    .footr p {
+        font-size: 18.5px;
+        line-height: 23px;
+    }
+    .footr a {
+        font-size: 16.5px;
+    }
+    .footr_logotype {
+        padding-top: 2%;
+    }
+}
+
+/* Малые девайсы (горизонтальные телефоны, >= 575px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .headr_list_left a,
+    .headr_list_right a {
+        font-size: 13px;
+    }
+
+    .footr h1,
+    .footr p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .footr a {
+        font-size: 18px;
+    }
+
+    .footr_logotype {
+        padding-top: 2%;
+    }
+}
+@media (min-width: 992px) {
+    .headr_list_left,
+    .headr_list_right {
+        margin: 17px;
+    }
+}
+
+@media (max-width: 992px) {
+    .headr_list_left,
+    .headr_list_right {
+        margin: 1px;
+    }
+}
+
+/* Средние девайсы (планшеты, >= 768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .footr_vk-log {
+        padding-left: 25%;
+    }
+    .footr_nomer {
+        padding-left: 20%;
+    }
+    .footr_logotype {
+        padding-top: 10px;
+    }
+    .footr h1,
+    .footr p {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .footr a {
+        font-size: 20px;
+    }
+}
+
+/* Большие девайсы (десктопы, >= 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
